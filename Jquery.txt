@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>JqueryTutorial</title>
-     <script src="C:\Users\Tenny\Downloads\jquery-3.1.0.min.js"></script> //Download jquery file and put path here
+     <script src="C:\Users\Tenny\Downloads\jquery-3.1.0.min.js"></script> <!--Download jquery file and put path here-->
    <script>
        $(document).ready(function(){
          $("h1").click(function(){
