@@ -12,8 +12,8 @@
 
 </head>
 <body>
-   <h1>Hello I m Jquery</h1>
-  <h1>Please Hide Me</h1>
+   <h1>Hello I m Jquery Hide function</h1>
+<h1> Please Click Me For Hide</h1>
 
 </body>
 
