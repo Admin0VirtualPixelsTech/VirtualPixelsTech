@@ -1,0 +1,26 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+   $("#flip").click(function(){
+     $("#panel").slideToggle("slow");
+ });
+});
+
+</script>
+<style>
+#panel{
+     background-color:#D3D3D3;
+     display:none
+}
+
+#panel, #flip{
+    padding:5px;
+    text-align:center;
+     color:white;
+     border:solid 1px #c3c3c3;
+}
+</style>
+
+<h2 id="flip">Click To Me Slide Up/Down</h2>
+<h2 id="panel"> Hello I am jquery Slide Up and Down Toggle Method</h2>
