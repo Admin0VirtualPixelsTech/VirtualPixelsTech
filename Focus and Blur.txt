@@ -1,0 +1,19 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+      $("input").focus(function(){
+        $(this).css("bacground-color","#cccccc");
+    });
+      $("input").blur(function(){
+       $(this).css("background-color","#ffffff");  
+ });
+ });
+</script>
+</head>
+<body>
+       First:<input type="text" name="fname"><br/>
+       Last:<input type="text" nam="lname">
+</body>
+</html>
