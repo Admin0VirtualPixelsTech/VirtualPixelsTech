@@ -1,1 +1,6 @@
-hello from tarang
+<?php
+
+echo "Hello PHP World";
+
+
+?>
