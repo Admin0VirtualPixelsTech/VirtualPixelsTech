@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>JqueryTutorial</title>
+     <script src="C:\Users\Tenny\Downloads\jquery-3.1.0.min.js"></script> //Download jquery file and put path here
+   <script>
+       $(document).ready(function(){
+         $("h1").click(function(){
+              $(this).hide();
+           });
+   });
+</script>
+
+</head>
+<body>
+   <h1>Hello I m Jquery</h1>
+  <h1>Please Hide Me</h1>
+
+</body>
+
+</html>
